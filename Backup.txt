@@ -1,0 +1,12 @@
+Restore verify Only:
+
+1: That the backup set is complete and all volumes are readable.
+
+2: Some header fields of database pages, such as the page ID (as if it were about to write the data).
+
+3: Checksum (if present on the media).
+
+4: Checking for sufficient space on destination devices.
+
+
+CHECKSUM Specifies that the backup operation verifies each page for checksum.
